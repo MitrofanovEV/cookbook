@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="442.9873774509806" y="932.0">com.company.CommonCollection</node>
+    <node x="376.46453081232505" y="732.0">com.company.Criteries</node>
+    <node x="204.46453081232505" y="721.0">com.company.ErrorMessage</node>
+    <node x="544.277030812325" y="444.0">com.company.WebRecepie</node>
+    <node x="399.96453081232505" y="520.0">com.company.Criteriy</node>
+    <node x="650.25" y="1862.0">com.company.Main</node>
+    <node x="48.0" y="211.0">com.company.Catalog</node>
+    <node x="736.625" y="1351.0">com.company.MenuCommand</node>
+    <node x="115.21453081232505" y="0.0">com.company.Recepie</node>
+    <node x="344.6431022408965" y="1562.0">com.company.MenagerMenuUI</node>
+    <node x="1028.6431022408965" y="1584.0">com.company.AddWebRacepie</node>
+    <node x="659.25" y="1759.0">com.company.Injector</node>
+    <node x="834.6431022408965" y="1584.0">com.company.DownloadWebRecepie</node>
+    <node x="654.6431022408965" y="1584.0">com.company.ChangeWebRecepie</node>
+    <node x="0.0" y="1307.0">com.company.PrivateCollection</node>
+    <node x="609.027030812325" y="743.0">com.company.Recepies</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Injector" target="com.company.MenagerMenuUI">
+      <point x="-27.29166666666663" y="-26.5" />
+      <point x="697.4583333333333" y="1709.0" />
+      <point x="562.1431022408965" y="1709.0" />
+      <point x="72.5" y="48.5" />
+    </edge>
+    <edge source="com.company.Catalog" target="com.company.Recepie">
+      <point x="-49.5" y="-91.5" />
+      <point x="97.5" y="191.0" />
+      <point x="188.33953081232505" y="191.0" />
+      <point x="-24.375" y="80.5" />
+    </edge>
+    <edge source="com.company.Injector" target="com.company.PrivateCollection">
+      <point x="-49.12499999999994" y="-26.5" />
+      <point x="675.625" y="1729.0" />
+      <point x="92.125" y="1729.0" />
+      <point x="92.125" y="1542.0" />
+      <point x="130.0" y="1542.0" />
+      <point x="0.0" y="102.5" />
+    </edge>
+    <edge source="com.company.Criteries" target="com.company.Criteriy">
+      <point x="-50.0" y="-69.5" />
+      <point x="-26.5" y="37.5" />
+    </edge>
+    <edge source="com.company.WebRecepie" target="com.company.Catalog">
+      <point x="-48.75" y="-113.5" />
+      <point x="593.027030812325" y="419.0" />
+      <point x="196.5" y="419.0" />
+      <point x="49.5" y="91.5" />
+    </edge>
+    <edge source="com.company.DownloadWebRecepie" target="com.company.MenuCommand">
+      <point x="0.0" y="-26.5" />
+      <point x="921.6431022408965" y="1542.0" />
+      <point x="814.75" y="1542.0" />
+      <point x="15.625" y="58.5" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Injector">
+      <point x="-37.25" y="-37.5" />
+      <point x="687.5" y="1837.0" />
+      <point x="692.0" y="1837.0" />
+      <point x="-32.75" y="26.5" />
+    </edge>
+    <edge source="com.company.Injector" target="com.company.AddWebRacepie">
+      <point x="38.20833333333337" y="-26.5" />
+      <point x="762.9583333333333" y="1719.0" />
+      <point x="1132.8931022408965" y="1719.0" />
+      <point x="34.75" y="26.5" />
+    </edge>
+    <edge source="com.company.Injector" target="com.company.DownloadWebRecepie">
+      <point x="5.458333333333371" y="-26.5" />
+      <point x="730.2083333333333" y="1689.0" />
+      <point x="878.1431022408965" y="1689.0" />
+      <point x="-43.5" y="26.5" />
+    </edge>
+    <edge source="com.company.PrivateCollection" target="com.company.Recepie">
+      <point x="-97.5" y="-102.5" />
+      <point x="32.5" y="1287.0" />
+      <point x="37.499999999999886" y="1287.0" />
+      <point x="37.499999999999886" y="181.0" />
+      <point x="139.58953081232505" y="181.0" />
+      <point x="-73.125" y="80.5" />
+    </edge>
+    <edge source="com.company.CommonCollection" target="com.company.PrivateCollection">
+      <point x="-52.200000000000045" y="157.5" />
+      <point x="521.2873774509806" y="1277.0" />
+      <point x="227.5" y="1277.0" />
+      <point x="97.5" y="-102.5" />
+    </edge>
+    <edge source="com.company.Injector" target="com.company.CommonCollection">
+      <point x="60.04166666666663" y="-26.5" />
+      <point x="784.7916666666665" y="1739.0" />
+      <point x="1189.059768907563" y="1739.0" />
+      <point x="1189.059768907563" y="1277.0" />
+      <point x="677.8873774509805" y="1277.0" />
+      <point x="104.39999999999986" y="157.5" />
+    </edge>
+    <edge source="com.company.MenagerMenuUI" target="com.company.MenuCommand">
+      <point x="96.66666666666663" y="-48.5" />
+      <point x="586.3097689075631" y="1532.0" />
+      <point x="752.25" y="1532.0" />
+      <point x="-46.875" y="58.5" />
+    </edge>
+    <edge source="com.company.Recepie" target="com.company.Catalog">
+      <point x="24.375" y="80.5" />
+      <point x="237.08953081232505" y="191.0" />
+      <point x="196.5" y="191.0" />
+      <point x="49.5" y="-91.5" />
+    </edge>
+    <edge source="com.company.CommonCollection" target="com.company.ErrorMessage">
+      <point x="-111.85714285714289" y="-157.5" />
+      <point x="461.6302345938377" y="912.0" />
+      <point x="280.46453081232505" y="912.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="com.company.MenagerMenuUI" target="com.company.CommonCollection">
+      <point x="0.0" y="-48.5" />
+      <point x="489.6431022408965" y="1287.0" />
+      <point x="573.4873774509806" y="1287.0" />
+      <point x="0.0" y="157.5" />
+    </edge>
+    <edge source="com.company.ChangeWebRecepie" target="com.company.MenuCommand">
+      <point x="0.0" y="-26.5" />
+      <point x="734.6431022408965" y="1542.0" />
+      <point x="783.5" y="1542.0" />
+      <point x="-15.625" y="58.5" />
+    </edge>
+    <edge source="com.company.Recepies" target="com.company.WebRecepie">
+      <point x="0.0" y="-58.5" />
+      <point x="732.527030812325" y="701.0" />
+      <point x="666.152030812325" y="701.0" />
+      <point x="24.375" y="113.5" />
+    </edge>
+    <edge source="com.company.CommonCollection" target="com.company.Recepies">
+      <point x="74.57142857142867" y="-157.5" />
+      <point x="648.0588060224093" y="902.0" />
+      <point x="732.527030812325" y="902.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="com.company.CommonCollection" target="com.company.WebRecepie">
+      <point x="0.0" y="-157.5" />
+      <point x="573.4873774509806" y="912.0" />
+      <point x="586.964530812325" y="912.0" />
+      <point x="586.964530812325" y="701.0" />
+      <point x="568.652030812325" y="701.0" />
+      <point x="-73.125" y="113.5" />
+    </edge>
+    <edge source="com.company.AddWebRacepie" target="com.company.MenuCommand">
+      <point x="0.0" y="-26.5" />
+      <point x="1098.1431022408965" y="1532.0" />
+      <point x="846.0" y="1532.0" />
+      <point x="46.875" y="58.5" />
+    </edge>
+    <edge source="com.company.CommonCollection" target="com.company.Criteries">
+      <point x="-74.57142857142867" y="-157.5" />
+      <point x="498.91594887955193" y="902.0" />
+      <point x="426.46453081232505" y="902.0" />
+      <point x="-50.0" y="69.5" />
+    </edge>
+    <edge source="com.company.WebRecepie" target="com.company.Recepie">
+      <point x="48.75" y="-113.5" />
+      <point x="690.527030812325" y="191.0" />
+      <point x="285.83953081232505" y="191.0" />
+      <point x="73.125" y="80.5" />
+    </edge>
+    <edge source="com.company.MenagerMenuUI" target="com.company.PrivateCollection">
+      <point x="-96.66666666666663" y="-48.5" />
+      <point x="392.97643557422987" y="1542.0" />
+      <point x="216.66666666666663" y="1542.0" />
+      <point x="86.66666666666663" y="102.5" />
+    </edge>
+    <edge source="com.company.Injector" target="com.company.ChangeWebRecepie">
+      <point x="-5.458333333333314" y="-26.5" />
+      <point x="719.2916666666666" y="1679.0" />
+      <point x="774.6431022408965" y="1679.0" />
+      <point x="40.0" y="26.5" />
+    </edge>
+    <edge source="com.company.PrivateCollection" target="com.company.Catalog">
+      <point x="-32.5" y="-102.5" />
+      <point x="-49.5" y="91.5" />
+    </edge>
+    <edge source="com.company.PrivateCollection" target="com.company.CommonCollection">
+      <point x="32.5" y="-102.5" />
+      <point x="162.5" y="1267.0" />
+      <point x="469.0873774509805" y="1267.0" />
+      <point x="-104.40000000000009" y="157.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="737.214285714286" y="1273.0000000000002" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
